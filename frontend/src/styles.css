@@ -1,0 +1,17 @@
+
+:root { --primary:#111827; --accent:#2563eb; --muted:#6b7280; }
+*{ box-sizing:border-box; }
+body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#f7fafc; color:#111827 }
+a{ color:inherit; text-decoration:none }
+.container{ max-width:1000px; margin:0 auto; padding:24px }
+.card{ background:#fff; border:1px solid #e5e7eb; border-radius:8px; padding:16px; margin-bottom:16px }
+.input{ width:100%; padding:10px 12px; border:1px solid #d1d5db; border-radius:6px; margin:6px 0 12px }
+.btn{ background:#2563eb; color:#fff; border:none; padding:10px 14px; border-radius:6px; cursor:pointer }
+.btn.secondary{ background:#6b7280 }
+.btn.danger{ background:#dc2626 }
+.row{ display:flex; gap:12px; align-items:center; flex-wrap:wrap }
+.table{ width:100%; border-collapse: collapse }
+.table th, .table td{ border-bottom:1px solid #e5e7eb; padding:8px; text-align:left }
+.nav{ background:#fff; border-bottom:1px solid #e5e7eb; padding:12px }
+.nav .brand{ font-weight:700 }
+.nav .spacer{ flex:1 }
